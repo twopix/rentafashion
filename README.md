@@ -1,8 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d6fb5745-5e6f-4c20-89a9-a9dfe729059b/deploy-status)](https://app.netlify.com/sites/biomaximum/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d6fb5745-5e6f-4c20-89a9-a9dfe729059b/deploy-status)](https://app.netlify.com/sites/rentafashion/deploys)
 
-# biomaximum-intro
+# rentafashion-intro
 
-Jekyll intro page for BioMaximum
+Jekyll intro page for RentaFashion
 
 code: bundle exec jekyll serve
 or.
