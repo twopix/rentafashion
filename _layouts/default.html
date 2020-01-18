@@ -1,0 +1,154 @@
+<head>
+    <meta charset="utf-8">
+    <title>{{page.title}} - {{page.subtitle}}</title>
+    <meta name="description" content="{{page.description}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ================= Favicon ================== -->
+    <!-- Standard -->
+    <link rel="shortcut icon" href="/assets/img/favicon.png">
+    <!-- Retina iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon-retina-ipad.png">
+    <!-- Retina iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon-retina-iphone.png">
+    <!-- Standard iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon-standard-ipad.png">
+    <!-- Standard iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon-standard-iphone.png">
+    <!-- ============== Resources style ============== -->
+    <link rel="stylesheet" href="/assets/css/style-minimal.css">
+    <!-- Modernizr runs quickly on page load to detect features -->
+    <script src="/assets/js/modernizr.custom.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19091512-81"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-19091512-81');
+    </script>
+
+</head>
+
+<body class="mCustomScrollbar _mCS_1 mCS_no_scrollbar vegas-container">
+    <div class="vegas-slide vegas-transition-fade vegas-transition-fade-in vegas-transition-fade-out" style="transition: all 1000ms ease 0s;">
+        <div class="vegas-slide-inner" style="background-image: url(&quot;assets/img/slide-2.jpg&quot;); background-color: rgb(32, 35, 45); background-position: center center; background-size: cover;"></div>
+    </div>
+    <div class="vegas-slide vegas-transition-fade vegas-transition-fade-in vegas-transition-fade-out" style="transition: all 1000ms ease 0s;">
+        <div class="vegas-slide-inner" style="background-image: url(&quot;assets/img/slide-3.jpg&quot;); background-color: rgb(32, 35, 45); background-position: center center; background-size: cover;"></div>
+    </div>
+    <div class="vegas-slide vegas-transition-fade vegas-transition-fade-in vegas-transition-fade-out" style="transition: all 1000ms ease 0s;">
+        <div class="vegas-slide-inner" style="background-image: url(&quot;assets/img/slide-1.jpg&quot;); background-color: rgb(32, 35, 45); background-position: center center; background-size: cover;"></div>
+    </div>
+    <div class="vegas-slide vegas-transition-fade vegas-transition-fade-in vegas-transition-fade-out" style="transition: all 1000ms ease 0s;">
+        <div class="vegas-slide-inner" style="background-image: url(&quot;assets/img/slide-2.jpg&quot;); background-color: rgb(32, 35, 45); background-position: center center; background-size: cover;"></div>
+    </div>
+    <div class="vegas-slide vegas-transition-fade vegas-transition-fade-in" style="transition: all 1000ms ease 0s;">
+        <div class="vegas-slide-inner" style="background-image: url(&quot;assets/img/slide-3.jpg&quot;); background-color: rgb(32, 35, 45); background-position: center center; background-size: cover;"></div>
+    </div>
+    <div class="vegas-timer vegas-timer-running">
+        <div class="vegas-timer-progress" style="transition-duration: 4900ms;"></div>
+    </div>
+    <div id="mCSB_1" class="mCustomScrollBox mCS-light mCSB_vertical mCSB_inside" tabindex="0">
+        <div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+            <!-- Page preloader -->
+            <div id="loading" class="" style="opacity: 0; display: none;">
+                <div id="preloader" class="" style="opacity: 0;">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <!-- Overlay -->
+            <div class="global-overlay" style="opacity: 1; transform: translateX(100%);">
+                <div class="overlay skew-part"></div>
+            </div>
+            <!-- START - Home/Left Part -->
+            <section id="left-side" class="minimal-phone" style="opacity: 1;">
+                <!-- Your logo -->
+                <img src="/assets/img/logo-rentafashion.png" alt="" class="brand-logo mCS_img_loaded">
+                <div class="content">
+                    <h1 class="text-intro animated-middle fadeInUp">{{page.title}}<br>
+                        {{page.subtitle}}</h1>
+                    <h2 class="text-intro animated-middle fadeInUp">{{page.text}}</h2>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a data-dialog="somedialog" class="action-btn trigger text-intro animated-middle fadeInUp">{{page.contact}}</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Social icons -->
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/rentafashiongr/" target="_blank"><i class="fa fa-facebook"></i></a>
+<!--                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a> -->
+                </div>
+            </section>
+            <!-- END - Home/Left Part -->
+            <!-- START - Newsletter Popup -->
+            <div id="somedialog" class="dialog">
+                <div class="dialog__overlay"></div>
+                <div class="dialog__content">
+                    <div class="dialog-inner">
+                        <h4>{{page.contact}}</h4>
+                        <p>Διεύθυνση: {{page.address}}</p>
+                        <p>Email: {{page.email}}</p>
+                        <p>Τηλέφωνο: {{page.phone}}</p>
+                        <!-- Newsletter Form -->
+                        <div id="subscribe">
+                            <!-- <form action="php/notify-me.php" id="notifyMe" method="POST">
+                                <div class="form-group">
+                                    <div class="controls">
+                                        <input type="text" id="mail-sub" name="email" placeholder="Click here to write your email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Click here to write your email'" class="form-control email srequiredField">
+                                        <i class="fa fa-spinner opacity-0"></i>
+                                        <button class="btn btn-lg submit">Get notified</button>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                            </form> -->
+                            <!-- Answer for the newsletter form is displayed in the next div, do not remove it. -->
+                            <div class="block-message">
+                                <div class="message">
+                                    <p class="notify-valid"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /. Newsletter Form -->
+                    </div>
+                    <!-- /. dialog-inner -->
+                    <!-- Button Cross to close the Newsletter Popup -->
+                    <button class="close-newsletter" data-dialog-close=""><i class="icon ion-close-round"></i></button>
+                </div>
+                <!-- /. dialog__content -->
+            </div>
+            <!-- END - Newsletter Popup -->
+            <!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
+            <!-- ********** Resources jQuery ********** -->
+            <!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
+            <!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+            <script src="/assets/js/jquery.min.js"></script>
+            <script src="/assets/js/jquery.easings.min.js"></script>
+            <script src="/assets/js/bootstrap.min.js"></script>
+            <!-- PhotoSwipe Core JS file -->
+            <script src="/assets/js/velocity.min.js"></script>
+            <!-- PhotoSwipe UI JS file -->
+            <script src="/assets/js/velocity.ui.min.js"></script>
+            <!-- Newsletter plugin -->
+            <script src="/assets/js/notifyMe.js"></script>
+            <!-- Slideshow/Image plugin -->
+            <script src="/assets/js/vegas.js"></script>
+            <!-- Scroll plugin -->
+            <script src="/assets/js/jquery.mousewheel.js"></script>
+            <!-- Custom Scrollbar plugin -->
+            <script src="/assets/js/jquery.mCustomScrollbar.js"></script>
+            <!-- Popup Newsletter Form -->
+            <script src="/assets/js/classie.js"></script>
+            <script src="/assets/js/dialogFx.js"></script>
+            <!-- Main JS File -->
+            <script src="/assets/js/main.js"></script>
+            <!--[if lt IE 10]><script type="text/javascript" src="/assets/js/placeholder.js"></script><![endif]-->
+        </div>
+    </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+</body>
